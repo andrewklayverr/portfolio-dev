@@ -2,22 +2,24 @@ import React from "react";
 import './Styles/sobremim.css';
 
 const SobreMim = () => (
-    <section id="sobre-mim" style={{ padding: "4rem 0", textAlign: "center" }}>
-        <h2 style={{ color: "#61dafb", fontSize: "4rem", marginBottom: "1rem" }}>
+    <section className="sobremim-container">
+        <h2 className="sobremim-title">
             Desenvolvedor FrontEnd
         </h2>
-        <h3 style={{ color: "#61dafb", fontSize: "1.5rem", marginBottom: "1rem" }}>
+        <h3 className="sobremim-subtitle">
             Transformando ideias em soluções digitais
         </h3>
-        <p style={{ color: "#ccc", maxWidth: 700, margin: "2rem", fontSize: "1.2rem" }}>
+        <p className="sobremim-description">
            Especializado em React, Node.js e tecnologias modernas. Transformo ideias em soluções digitais impactantes para freelancers e empresas.
         </p>
-        <button className="btn">
-            Ver Projetos
-        </button>
-        <button className="btn">
-            Ver Projetos
-        </button>
+        <div className="btn-container">
+            <button className="btn">
+                Ver Projetos
+            </button>
+            <button className="btn">
+                Ver Projetos
+            </button>
+        </div>
     </section>
 );
 
