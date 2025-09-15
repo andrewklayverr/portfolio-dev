@@ -8,8 +8,7 @@ import "./Styles/tecnologias.css";
 function Tecnologias() {
   return (
     <div
-      className="tecnologias-container"
-      style={{ marginTop: "50px", color: "#61DAFB" }}
+      className="tecnologias-container" id="skills" style={{ scrollMarginTop: "100px", paddingTop: "100px", paddingBottom: "80px" }}
     >
       <h1
         className="tecnologias-title"
@@ -46,20 +45,11 @@ function Tecnologias() {
         color: "#929292ff"
        }}>Interessado em trabalhar comigo?</h3>
        <button
-         className="btn-tecnologias"
-         style={{
-           marginTop: "20px",
-           padding: "10px 20px",
-           fontSize: "1rem", 
-           backgroundColor: "#61DAFB",
-           color: "#fff",
-           border: "none",
-           borderRadius: "5px",
-           cursor: "pointer",
-         }}
-       >
-         Vamos Conversar
-       </button>
+    className="btn-contato"
+    onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
+  >
+    Vamos Conversar
+  </button>
      </div>
     </div>
     

@@ -6,7 +6,7 @@ import foto from '../../assets/foto.jpg';
 
 export default function Apresentacao() {
   return (
-    <section className="apresentação-container">
+    <section className="apresentação-container" id="apresentação">
           <div className='apresentação-topo'>
          <h3 className="apresentação-title">SOBRE MIM</h3>
           <h2 className="apresentação-subtitle">Paixão por Código</h2>

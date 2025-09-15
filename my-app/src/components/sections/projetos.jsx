@@ -5,10 +5,12 @@ import Row from "react-bootstrap/Row";
 import "bootstrap/dist/css/bootstrap.min.css";
 import cardsProjetos from "../arrays/arrayprojetos";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import portfolioImg from '../../assets/portfolio.png';
+
 
 function Projetos() {
   return (
-    <div className="projetos-container py-5" id="projetos">
+    <div className="projetos-container py-5" id="projetos" style={{ scrollMarginTop: "100px", paddingTop: "100px", paddingBottom: "80px" }}>
       <h1 className="projetos-title mb-3">
   Trabalhos Realizados
 </h1>
@@ -30,8 +32,8 @@ function Projetos() {
 
               <div className="projetos-image-container">
                 <img
-                  src={proj.img}
-                  alt={proj.title}
+                  src={portfolioImg}
+                  alt="Portfólio"
                   className="projetos-image"
                 />
                 <div className="projetos-overlay">

@@ -7,7 +7,7 @@ const cardsProjetos = [
     tipo: "Front-End",
     img: "https://i.ibb.co/0jv3m3D/portf-lio.png",
     link: "https://portfolio-dev-omega.vercel.app/",
-    github: "https://github.com/aklay/portfolio-dev"
+    github: "https://github.com/andrewklayverr/portfolio-dev"
   },
    
 ];

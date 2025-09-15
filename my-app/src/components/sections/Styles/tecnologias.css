@@ -1,6 +1,6 @@
 .tecnologias-container {
   padding: 2rem;
-  background-color: #0f0f0f;
+  background-color: #090909;
   text-align: center;
 }
 
@@ -65,3 +65,15 @@
   color: #fff;
 }
 
+.btn-contato {
+  background-color: #00BFFF;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2rem;
+}

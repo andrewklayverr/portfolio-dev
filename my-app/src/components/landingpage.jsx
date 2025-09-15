@@ -6,6 +6,7 @@ import Apresentação from "./sections/apresentação";
 import Tecnologias from "./sections/tecnologias";
 import Projetos from "./sections/projetos";
 import Footer from "./sections/footer";
+import Contato from "./sections/contato";
 
 const LandingPage = () => {
     return (
@@ -17,6 +18,7 @@ const LandingPage = () => {
             <Apresentação />
             <Tecnologias />
             <Projetos /> 
+            <Contato />
             <Footer />
 
         </section>
