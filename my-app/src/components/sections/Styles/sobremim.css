@@ -1,0 +1,55 @@
+section {
+  padding: 10rem 2rem;
+}
+
+
+.sobremim-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}
+
+
+.btn-group {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.sobremim-container .btn {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin: 0 0.5rem;
+}
+
+.sobremim-container .btn:hover {
+  transform: scale(1.05);
+}
+
+.sobremim-title {
+  color: #61dafb;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sobremim-subtitle {
+  color: #61dafb;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sobremim-description {
+  color: #ccc;
+  max-width: 700px;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+}

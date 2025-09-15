@@ -1,0 +1,34 @@
+.contato-container {
+  background-color: #0E0E0E;
+  color: #E0E0E0;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.contato-title {
+  font-size: 2rem;
+  color: #00BFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contato-item {
+  background-color: #1A1A1A;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.contato-item:hover {
+  transform: translateY(-5px);
+}
+
+.contato-icon {
+  font-size: 2rem;
+  color: #61DAFB;
+  margin-bottom: 0.5rem;
+}
+
+
