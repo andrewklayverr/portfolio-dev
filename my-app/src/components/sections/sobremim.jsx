@@ -2,7 +2,7 @@ import React from "react";
 import './Styles/sobremim.css';
 
 const SobreMim = () => (
-    <section className="sobremim-container" style={{ marginTop: "50px", scrollMarginTop: "100px" }} id="sobremim">
+    <section className="sobremim-container" style={{ marginTop: "10px", scrollMarginTop: "100px" }} id="sobremim">
         <h2 className ="sobremim-title" >
             Desenvolvedor FrontEnd
         </h2>
