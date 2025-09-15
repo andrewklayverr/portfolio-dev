@@ -38,9 +38,7 @@ const MenuBar = () => (
                             fontWeight: item.label === 'Contratar' ? 'bold' : 'normal',
                             padding: item.label === 'Contratar' ? '0.5rem 1rem' : '0',
                             borderRadius: item.label === 'Contratar' ? '4px' : '0',
-                            background: item.label === 'Contratar' ? '#007bff' : 'transparent',
-                            // eslint-disable-next-line no-dupe-keys
-                            color: item.label === 'Contratar' ? '#fff' : '#222',
+                            background: item.label === 'Contratar' ? '#007bff' : 'transparent',      
                             transition: 'background 0.2s',
                         }}
                     >

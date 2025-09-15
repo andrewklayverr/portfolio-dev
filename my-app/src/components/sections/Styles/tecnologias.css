@@ -1,0 +1,67 @@
+.tecnologias-container {
+  padding: 2rem;
+  background-color: #0f0f0f;
+  text-align: center;
+}
+
+.tecnologias-title {
+  color: #61DAFB;
+  font-weight: bold;
+}
+
+.tecnologias-subtitle {
+  color: #00BFA6;
+  font-weight: 500;
+}
+
+.card-custom {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+.card-custom .card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #00BFA6;
+}
+
+.card-custom .card-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.card-tag {
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid #00BFFF;
+  border-radius: 999px;
+  color: #00BFFF;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.card-tag:hover {
+  background-color: #00BFFF;
+  color: #fff;
+}
+
