@@ -1,0 +1,139 @@
+.projetos-container.py-5 {
+  margin-top: 10rem;
+}
+
+.projetos-card-wrapper {
+  position: relative;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetos-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #61DAFB;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.projetos-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #CCCCCC;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+
+.projetos-card {
+  background-color: #1A1A1A; 
+  color: #E0E0E0; 
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.projetos-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+}
+.projetos-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #61DAFB;
+  margin-bottom: 0.5rem;
+}
+
+.projetos-subtitle {
+
+  color: #888;
+
+}
+
+.projetos-card .card-text {
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.projetos-badge {
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid #61DAFB;
+  border-radius: 999px;
+  color: #61DAFB;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.projetos-badge:hover {
+  background-color: #61DAFB;
+  color: #0E0E0E;
+}
+
+.projetos-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 2;
+  background-color: #00BFA6;
+  color: #fff;
+}
+
+.projetos-label.fullstack { background-color: #6f42c1; }
+.projetos-label.frontend { background-color: #007bff; }
+.projetos-label.backend { background-color: #fd7e14; }
+
+.projetos-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.projetos-image { 
+  width: 100%;
+  height: 180px; /* ou 50% da altura original */
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+}
+
+.projetos-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 14, 14, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 12px;
+}
+
+.projetos-image-container:hover .projetos-overlay {
+  opacity: 1;
+}
+
+.projetos-overlay a {
+  color: #61DAFB;
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.projetos-overlay a:hover {
+  transform: scale(1.2);
+}

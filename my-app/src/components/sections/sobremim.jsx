@@ -2,8 +2,8 @@ import React from "react";
 import './Styles/sobremim.css';
 
 const SobreMim = () => (
-    <section className="sobremim-container">
-        <h2 className="sobremim-title">
+    <section className="sobremim-container" style={{ marginTop: "50px" }}>
+        <h2 className ="sobremim-title" >
             Desenvolvedor FrontEnd
         </h2>
         <h3 className="sobremim-subtitle">
@@ -17,7 +17,7 @@ const SobreMim = () => (
                 Ver Projetos
             </button>
             <button className="btn">
-                Ver Projetos
+                Contratar
             </button>
         </div>
     </section>

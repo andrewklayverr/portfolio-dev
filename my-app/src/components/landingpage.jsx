@@ -4,6 +4,8 @@ import './landingpage.css';
 import SobreMim from "./sections/sobremim";
 import Apresentação from "./sections/apresentação";
 import Tecnologias from "./sections/tecnologias";
+import Projetos from "./sections/projetos";
+import Footer from "./sections/footer";
 
 const LandingPage = () => {
     return (
@@ -14,6 +16,8 @@ const LandingPage = () => {
             <SobreMim />
             <Apresentação />
             <Tecnologias />
+            <Projetos /> 
+            <Footer />
 
         </section>
     );
