@@ -4,7 +4,7 @@ import './Styles/sobremim.css';
 const SobreMim = () => (
     <section className="sobremim-container" style={{ marginTop: "10px", scrollMarginTop: "100px" }} id="sobremim">
         <h2 className ="sobremim-title" >
-            Desenvolvedor FrontEnd
+            Desenvolvedor Web
         </h2>
         <h3 className="sobremim-subtitle">
             Transformando ideias em soluções digitais
