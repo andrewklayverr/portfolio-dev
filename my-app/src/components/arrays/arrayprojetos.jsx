@@ -6,7 +6,7 @@ const cardsProjetos = [
     tags: ["React", "JavaScript", "HTML5", "CSS3", "Bootstrap"],
     tipo: "Front-End",
     img: "https://i.ibb.co/0jv3m3D/portf-lio.png",
-    link: "https://portfolio-dev-omega.vercel.app/",
+    link: "https://portfolio-iq3gb3tw3-andrewklayverrs-projects.vercel.app",
     github: "https://github.com/andrewklayverr/portfolio-dev"
   },
    
