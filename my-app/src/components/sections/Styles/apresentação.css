@@ -55,12 +55,15 @@
 
 .apresentação-stats {
   display: flex;
-  gap: 3rem; /* espaço entre os blocos */
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
   margin-top: 2rem;
 }
 
+
 .apresentação-stats div {
-  text-align: center;
+  text-align: left;
 }
 
 .apresentação-stats h3 {

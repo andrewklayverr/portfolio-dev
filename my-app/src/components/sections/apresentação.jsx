@@ -43,10 +43,6 @@ export default function Apresentacao() {
 
           <div className="apresentação-stats">
             <div>
-              <h3>50+</h3>
-              <p>Projetos</p>
-            </div>
-            <div>
               <h3>3+</h3>
               <p>Anos Exp.</p>
             </div>
